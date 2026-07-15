@@ -1,135 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ronan Triquet">
+    <meta name="description" content="CV de Ronan Triquet — Développeur Web et Web Mobile">
+    <title>Curriculum Vitae - TRIQUET Ronan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/effects.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <main class="cv-wrapper">
         <!-- ===== EN-TÊTE ===== -->
-<header class="cv-header">
-  <div class="header-photo">
-    <img src="assets/images/photo-profil.jpg" alt="Photo de Ronan Triquet" class="profile-photo">
-  </div>
-  <div class="header-info">
-    <p class="header-name">Ronan Triquet</p>
-    <h1 class="header-title">Développeur Web et Web Mobile</h1>
-    <div class="header-contacts">
-      <a href="mailto:ronan.triquet@email.com" class="contact-link" aria-label="Adresse e-mail">
-        <i class="fas fa-envelope"></i>
-        ronan.triquet@email.com
-      </a>
-      <a href="tel:+33600000000" class="contact-link" aria-label="Numéro de téléphone">
-        <i class="fas fa-phone"></i>
-        +33 6 00 00 00 06
-      </a>
-      <a href="https://maps.google.com/?q=lorient" target="_blank" rel="noopener" class="contact-link" aria-label="Localisation">
-        <i class="fas fa-map-marker-alt"></i>
-        Lorient
-      </a>
-      <span class="contact-link">
-        <i class="fas fa-id-card"></i>
-        Permis B
-      </span>
-    </div>
-  </div>
-</header>
+        <header class="cv-header"></header>
 
-  <!-- FIX: Suppression du doublon <div class="cv-body"> 
-     La div était répétée deux fois, ce qui causait des problèmes de rendu.
-     Issue #3.1 --> ===== -->
+        <!-- ===== CORPS ===== -->
         <div class="cv-body">
-
             <!-- SIDEBAR GAUCHE -->
-            <aside class="cv-sidebar">
-                
-                <!-- Compétences -->
-                <section class="sidebar-section">
-                    <h2 class="sidebar-title">Compétences</h2>
-                    <ul class="skills-list">
-                        <li class="skill-item">
-                            <span class="skill-name">HTML</span>
-                            <div class="skill-stars">
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">CSS</span>
-                            <div class="skill-stars">
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                                <span class="star filled"></span>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">JavaScript</span>
-                            <div class="skill-stars">
-                                <span class="star filled"></span>
-                                <span class="star"></span>
-                                <span class="star"></span>
-                                <span class="star"></span>
-                                <span class="star"></span>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <span class="skill-name">PHP</span>
-                            <div class="skill-stars">
-                                <span class="star filled"></span>
-                                <span class="star"></span>
-                                <span class="star"></span>
-                                <span class="star"></span>
-                                <span class="star"></span>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
+            <aside class="cv-sidebar"></aside>
 
-                 <!-- CONTENU PRINCIPAL -->
-            <div class="cv-main">
+            <!-- CONTENU PRINCIPAL -->
+            <div class="cv-main"></div>
+        </div>
 
-                <!-- Profil -->
-                <section class="main-section">
-                    <h2 class="main-title">Profil</h2>
-                    <div class="profile-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluplatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluplatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluplatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluplatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!</p>
-             </div>
-                </section>
-
-                <!-- Formations -->
-                <section class="main-section">
-                    <h2 class="main-title">Formations</h2>
-                    <div class="entries-list">
-                        <div class="entry">
-                            <div class="entry-left">
-                                <h3 class="entry-name">Titre Professionnel — Développeur Web et Web Mobile</h3>
-                                <p class="entry-org">Centre Européen de Formations</p>
-                                <p class="entry-org">2026 – En cours</p>
-                            </div>
-                            <div class="entry-date">2024</div>
-                        </div>
-                        <div class="entry">
-                            <div class="entry-left">
-                                <h3 class="entry-name">Baccalauréat Professionnel — TMSEC Génie Climatic </h3>
-                                <p class="entry-org">Lycée DON BOSCO </p>
-                                <p class="entry-org">20xx – 20xx</p>
-                            </div>
-                            <div class="entry-date">2021</div>
-                        </div>
-                    </div>
-                </section>
-
+        <!-- ===== PIED DE PAGE ===== -->
+        <footer class="cv-footer"></footer>
+    </main>
 </body>
-
 </html>
